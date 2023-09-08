@@ -1,0 +1,18 @@
+@import url("https://fonts.cdnfonts.com/css/zapfino");
+.hcontainer {
+  background-image: url("https://res.cloudinary.com/dy2gsniki/image/upload/v1693559323/pexels-johannes-plenio-2850287_tkps48.jpg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 35px;
+}
+
+.homeHeading {
+  color: #3480eb;
+  font-size: 40px;
+  font-family: "Zapfino", sans-serif;
+  margin-top: 170px;
+}

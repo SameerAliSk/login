@@ -1,0 +1,113 @@
+.lcontainer {
+  background-image: url("https://res.cloudinary.com/dy2gsniki/image/upload/v1693559323/pexels-johannes-plenio-2850287_tkps48.jpg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 35px;
+}
+.LoginInput {
+  padding-top: 8px;
+  font-family: "Raleway", sans-serif;
+  outline: none;
+  margin-top: 5px;
+}
+.input-item {
+  background-color: transparent;
+  border-left: 0px;
+  border-top: 0px;
+  border-right: 0px;
+  border-bottom: 2px solid white;
+  outline: none;
+  font-size: 18px;
+  padding: 5px;
+  font-weight: 100;
+  font-style: italic;
+  color: white;
+}
+.Lcard {
+  background-color: #fbfbfb;
+  width: 330px;
+  height: 400px;
+  border-radius: 8px;
+  padding-bottom: 25px;
+  font-family: "Raleway", sans-serif;
+  margin-right: 30px;
+}
+.heading {
+  font-size: 16px;
+  padding-right: 25px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+#card-content {
+  padding: 12px 36px;
+}
+label {
+  font-size: 14px;
+  font-family: "Raleway", sans-serif;
+}
+
+.forms {
+  padding-left: 35px;
+}
+.cpassword {
+  margin-bottom: 60px;
+}
+button {
+  background-color: #040a29;
+  height: 32px;
+  width: 100px;
+  border-radius: 16px;
+  border-width: 0px;
+  font-size: 14px;
+  font-family: "Raleway", sans-serif;
+  color: #fbfbfb;
+  margin-top: 10px;
+}
+.btnContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+p {
+  font-size: 12px;
+  font-family: "Raleway", sans-serif;
+  color: #201f21;
+}
+span {
+  color: #040538;
+  text-decoration: underline;
+  font-weight: 500;
+}
+.fPassword {
+  font-family: "Raleway", sans-serif;
+  color: #040538;
+  font-weight: 500;
+  font-size: 12px;
+}
+.notification {
+  color: red;
+  font-size: 12px;
+  text-decoration: none;
+  margin-bottom: 40px;
+  padding-bottom: 50px;
+}
+.noNotification {
+  display: none;
+}
+.check {
+  display: flex;
+  flex-direction: row;
+}
+.para {
+  font-size: 12px;
+  font-family: "Raleway", sans-serif;
+  color: #201f21;
+  flex-direction: row;
+  text-decoration: none;
+  padding-left: 135px;
+  font-weight: 500;
+}
